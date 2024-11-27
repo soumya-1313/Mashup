@@ -88,8 +88,8 @@ def mashup(singer_name, num_videos, duration):
     return process_audio_files(singer_name, duration)
 
 def send_email_with_attachment(receiver_email, file_path):
-    sender_email = "ssoumya_be22@thapar.edu"
-    sender_password = "Sjindal_13"
+    sender_email = ""
+    sender_password = ""
 
     subject = "Your Mashup"
     msg = MIMEMultipart()
